@@ -1,0 +1,69 @@
+﻿@using CinemaApp.Web.ViewModels.Movies
+@model IEnumerable<AllMoviesIndexViewModel>
+
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-danger">All Movies</h1>
+
+        <a asp-action="Create" class="btn btn-danger">
+            Add New Movie
+        </a>
+    </div>
+
+    <div class="row">
+
+        @foreach (var movie in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card movie-card h-100">
+
+                    @if (!string.IsNullOrEmpty(movie.ImageUrl))
+                    {
+                        <img src="@movie.ImageUrl"
+                             class="card-img-top"
+                             alt="@movie.Title"
+                             style="height: 250px; object-fit: cover;" />
+                    }
+
+                    <div class="card-body">
+                        <h4 class="card-title text-danger">
+                            @movie.Title
+                        </h4>
+
+                        <p><strong>Genre:</strong> @movie.Genre</p>
+
+                        <p><strong>Director:</strong> @movie.Director</p>
+
+                        <p><strong>Release Date:</strong> @movie.ReleaseDate</p>
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-between">
+                        <a asp-action="Details"
+                           asp-route-id="@movie.Id"
+                           class="btn btn-outline-primary btn-sm">
+                            Details
+                        </a>
+
+                        <a asp-action="Edit"
+                           asp-route-id="@movie.Id"
+                           class="btn btn-outline-warning btn-sm">
+                            Edit
+                        </a>
+
+                        <a asp-action="Delete"
+                           asp-route-id="@movie.Id"
+                           class="btn btn-outline-danger btn-sm">
+                            Delete
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+</div>

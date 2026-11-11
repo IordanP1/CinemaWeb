@@ -1,0 +1,122 @@
+﻿
+/* USER PROFILE STYLE */
+
+.user-profile {
+    background-color: #1c1c1c;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.2);
+}
+
+    /* Profile title */
+
+    .user-profile h2 {
+        text-align: center;
+        color: #e50914;
+        margin-bottom: 25px;
+    }
+
+/* User information */
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .user-info label {
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+    .user-info p {
+        background-color: #252525;
+        padding: 12px;
+        border-radius: 5px;
+        color: white;
+    }
+
+/* User avatar */
+
+.user-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e50914;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* User buttons */
+
+.user-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+    .user-btn:hover {
+        background-color: #b20710;
+    }
+
+/* Reservations */
+
+.user-reservations {
+    margin-top: 30px;
+}
+
+.reservation-item {
+    background-color: #252525;
+    border-left: 4px solid #e50914;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+    .reservation-item h3 {
+        color: white;
+    }
+
+    .reservation-item span {
+        color: #e50914;
+        font-weight: bold;
+    }
+
+/* Login and Register */
+
+.user-form {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+}
+
+    .user-form input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .user-form button {
+        width: 100%;
+    }
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .user-profile,
+    .user-form {
+        margin: 20px;
+        padding: 20px;
+    }
+}
