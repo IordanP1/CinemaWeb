@@ -68,7 +68,7 @@ namespace CinemaApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("c8c89064-d6b2-4d1f-8e3d-af2a1b02dcb8"),
+                            Id = new Guid("175e48da-59ae-4741-b9e8-b50824e8a367"),
                             Description = "A team of explorers travels beyond this galaxy to discover whether mankind has a future among the stars.",
                             Director = "Christopher Nolan",
                             Duration = 169,
@@ -80,7 +80,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("dbca64ed-0b81-4ea6-9377-4ad173a256ce"),
+                            Id = new Guid("46ec68c2-474c-4cde-a89a-0cdb23ac2163"),
                             Description = "A skilled thief enters people's dreams to steal secrets and is given a seemingly impossible mission.",
                             Director = "Christopher Nolan",
                             Duration = 148,
@@ -92,7 +92,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("f289f916-6558-4776-984e-124f0d4bec2f"),
+                            Id = new Guid("c8941bde-81bd-45fc-87d1-a1a8ce24a733"),
                             Description = "Batman faces his greatest challenge when the Joker brings chaos to Gotham City.",
                             Director = "Christopher Nolan",
                             Duration = 152,
@@ -104,7 +104,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("17cde096-97c5-429f-83ff-890df87baefc"),
+                            Id = new Guid("03f0477a-8e7c-4ab2-a976-501dc2725ef0"),
                             Description = "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb.",
                             Director = "Christopher Nolan",
                             Duration = 180,
@@ -116,7 +116,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1896008a-2501-4420-8df7-1786994bc601"),
+                            Id = new Guid("3d08796b-438e-42ff-aaff-ddfcca7c4bf6"),
                             Description = "Two imprisoned men form a strong friendship while searching for hope and redemption.",
                             Director = "Frank Darabont",
                             Duration = 142,
@@ -128,7 +128,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("1de6f025-aeaa-4ff5-9445-fbfacf0676fb"),
+                            Id = new Guid("eca57d3c-b7d4-4446-8c67-51bfd55b32ea"),
                             Description = "A computer hacker discovers that reality is a simulation controlled by machines.",
                             Director = "Lana Wachowski",
                             Duration = 136,
@@ -140,7 +140,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("c60b241f-3fec-4ebf-bf8d-36659175303f"),
+                            Id = new Guid("f556f114-00ef-4de4-846d-5ead68dd74df"),
                             Description = "A betrayed Roman general seeks revenge against the emperor who destroyed his life.",
                             Director = "Ridley Scott",
                             Duration = 155,
@@ -152,7 +152,7 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("eace4264-a535-4b78-9b58-f184138a1e7f"),
+                            Id = new Guid("81fc01c3-88c2-495b-b937-34626f9aaf39"),
                             Description = "A kind-hearted man experiences extraordinary events throughout several decades of American history.",
                             Director = "Robert Zemeckis",
                             Duration = 142,
@@ -164,24 +164,24 @@ namespace CinemaApp.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("91c0819b-44d5-46b9-9f4d-bfd0c30172d5"),
+                            Id = new Guid("ff12724b-ef28-4b10-9bec-39e99afccb7a"),
                             Description = "The aging patriarch of a powerful crime family transfers control of his empire to his reluctant son.",
                             Director = "Francis Ford Coppola",
                             Duration = 175,
                             Genre = "Crime",
-                            ImageUrl = "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7en YsRolD1fZdja1.jpg",
+                            ImageUrl = "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
                             IsDeleted = false,
                             ReleaseDate = new DateTime(1972, 3, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Godfather"
                         },
                         new
                         {
-                            Id = new Guid("e64d53c7-4423-4a7c-8974-75f3d10b3eac"),
+                            Id = new Guid("3d5bafbf-01bb-4ece-9c76-910cd0ccbc91"),
                             Description = "The lives of two hitmen, a boxer and a group of criminals intertwine in unexpected ways.",
                             Director = "Quentin Tarantino",
                             Duration = 154,
                             Genre = "Crime",
-                            ImageUrl = "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfb7.jpg",
+                            ImageUrl = "https://posters.movieposterdb.com/12_10/1994/110912/l_110912_17fad32c.jpg",
                             IsDeleted = false,
                             ReleaseDate = new DateTime(1994, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Pulp Fiction"

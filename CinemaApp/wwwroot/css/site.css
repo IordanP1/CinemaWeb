@@ -95,3 +95,20 @@ body {
         background-color: #151515;
         border-top: 1px solid #333;
     }
+.browse-btn {
+    margin-top: 20px;
+    padding: 12px 35px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+    .browse-btn:hover {
+        background-color: #b20710;
+        color: white;
+        transform: scale(1.05);
+    }

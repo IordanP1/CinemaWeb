@@ -15,9 +15,9 @@ namespace CinemaApp.Services.Core
         public async Task<IEnumerable<GetAllMoviesResponseModel>> GetAllMoviesAsync()
         {
             IEnumerable<GetAllMoviesResponseModel> moviesResponseData = await context.Movies
-                .OrderByDescending(m => m.Title)
+                .OrderByDescending(m => m.Title) 
                 .ThenBy(m=>m.Id)
-                .Select(m => new GetAllMoviesResponseModel
+                .Select(m => new GetAllMoviesResponseModel()
                 {
                     Title = m.Title,
                     Genre = m.Genre,

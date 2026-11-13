@@ -113,7 +113,7 @@ new Movie
     Director = "Francis Ford Coppola",
     Duration = 175,
     Description = "The aging patriarch of a powerful crime family transfers control of his empire to his reluctant son.",
-    ImageUrl = "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7en YsRolD1fZdja1.jpg",
+    ImageUrl = "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
     IsDeleted = false
 },
 new Movie
@@ -125,7 +125,7 @@ new Movie
     Director = "Quentin Tarantino",
     Duration = 154,
     Description = "The lives of two hitmen, a boxer and a group of criminals intertwine in unexpected ways.",
-    ImageUrl = "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfb7.jpg",
+    ImageUrl = "https://posters.movieposterdb.com/12_10/1994/110912/l_110912_17fad32c.jpg",
     IsDeleted = false
 }
         };

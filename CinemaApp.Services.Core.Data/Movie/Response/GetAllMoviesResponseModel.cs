@@ -11,7 +11,8 @@ namespace CinemaApp.Services.Core.Data.Movie.Response
         public string Genre { get; set; } = null!;
         public string Director { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public string? ImageUrl { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public string? ImageUrl { get; set; }
+
     }
 }
