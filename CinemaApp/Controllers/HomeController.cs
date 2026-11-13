@@ -2,6 +2,7 @@ namespace CinemaApp.Web.Controllers
 {
     using System.Diagnostics;
     using CinemaApp.Web.ViewModels;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     public class HomeController : Controller
     {
@@ -12,16 +13,21 @@ namespace CinemaApp.Web.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-
+        [AllowAnonymous]
+        [HttpGet]
         public IActionResult Privacy()
         {
             return View();
         }
 
+        [AllowAnonymous]
+        [HttpGet]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

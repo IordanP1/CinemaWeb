@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Movie\Request\" />
+    <PackageReference Include="AutoMapper" Version="15.1.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="15.1.4" />
+    <ProjectReference Include="..\CinemaApp.GCommon\CinemaApp.GCommon.csproj" />
   </ItemGroup>
 
 </Project>
